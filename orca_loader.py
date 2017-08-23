@@ -116,7 +116,7 @@ wb.save(str_fn_new_61d)
 logger.info('Generating EzRMS blank data template file')
 # Payload to go into each Worksheet. We want to generate the Worksheet headers for convenience.
 l_forecast_number = ['Date','DOW','ACH_OCC','CVH_OCC','GLH_OCC','OHS_OCC','OPH_OCC','TES_OCC','TQH_OCC','EVH_OCC','RHS_OCC','OHD_OCC','OKL_OCC','All_OCC','ACH_PFO','CVH_PFO','GLH_PFO','OHS_PFO','OPH_PFO','TES_PFO','TQH_PFO','EVH_PFO','RHS_PFO','OHD_PFO','OKL_PFO','All_PFO']
-l_otb = ['Date','DOW','BookingCategory','ACH_TY','CVH_TY','GLH_TY','OHS_TY','OPH_TY','TES_TY','TQH_TY','EVH_TY','RHS_TY','OHD_TY','OKL_TY','ACH_LY','CVH_LY','GLH_LY','OHS_LY','OPH_LY','TES_LY','TQH_LY','EVH_LY','RHS_LY','OHD_LY','OKL_LY']
+l_otb = ['Date','DOW','Booking Category','ACH_TY','CVH_TY','GLH_TY','OHS_TY','OPH_TY','TES_TY','TQH_TY','EVH_TY','RHS_TY','OHD_TY','OKL_TY','ACH_LY','CVH_LY','GLH_LY','OHS_LY','OPH_LY','TES_LY','TQH_LY','EVH_LY','RHS_LY','OHD_LY','OKL_LY']
 df_forecast_number = DataFrame(columns=l_forecast_number)
 df_otb = DataFrame(columns=l_otb)
 
